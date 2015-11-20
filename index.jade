@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+	head
+		include _includes/_head
+	body
+		.container
+			header.row
+				.col-md-4
+					h2 SiteName
+
+				ul.col-md-8.list-inline.text-right(style="margin-top: 1.25em;")
+					li: a(href=""): .glyphicon.glyphicon-envelope  Newsletter
+					li: a(href=""): .glyphicon.glyphicon-leaf  RSS
+					li: span |
+					li: form.form-inline(role="form")
+						.form-group
+							label.sr-only Email Address
+							input(type="email", placeholder="Enter Email").form-control 
+							button(type="submit").btn.btn-default Sign Up!
+
+
+
+		script(src="js/jquery-2.1.4.min.js")
+		script(src="js/bootstrap.min.js")
+		script(src="js/function.js")
