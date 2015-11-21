@@ -9,9 +9,13 @@ html(lang="en")
 					h2 SiteName
 
 				ul.col-md-8.list-inline.text-right(style="margin-top: 1.25em;")
-					li: a(href=""): .glyphicon.glyphicon-envelope  Newsletter
-					li: a(href=""): .glyphicon.glyphicon-leaf  RSS
-					li.hidden-sm: span |
+					li: a(href="")
+						i.pr05.glyphicon.glyphicon-envelope
+						|Newsletter
+					li: a(href="")
+						i.pr05.glyphicon.glyphicon-leaf
+						|RSS
+					li.hidden-sm |
 					li: form.form-inline(role="form")
 						.form-group
 							label.sr-only Email Address
@@ -34,7 +38,7 @@ html(lang="en")
 				section.col-sm-5
 					include _includes/col-1
 					
-				section.col-sm-4
+				section.col-sm-4.col-2
 					include _includes/col-2					
 
 				section.col-sm-3

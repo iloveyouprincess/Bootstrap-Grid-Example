@@ -1,0 +1,24 @@
+mixin tagblock
+	.small.text-muted.clearfix
+		.col-sm-4
+			ul.list-inline
+				li: span.glyphicon.glyphicon-folder-open
+				li: strong Voir I`article   
+
+		.col-sm-8
+			ul.list-inline
+				li: i.glyphicon.glyphicon-tags
+				li: span: strong Tags:
+				li: a(href="") Mauris
+				| ,
+				li: a(href="") pellentesque
+				| ,
+				li: a(href="") bibendum
+
+mixin media-object(title)
+	//- var random = Math.floor(Math.random()*9)
+	.media
+			a(href="").media-left: img.media-object(src="//fillmurray.com/g/61/60", alt="")
+			.media-body
+				h4.media-heading #{title}
+				p  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
