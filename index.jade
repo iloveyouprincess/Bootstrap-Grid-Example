@@ -11,12 +11,34 @@ html(lang="en")
 				ul.col-md-8.list-inline.text-right(style="margin-top: 1.25em;")
 					li: a(href=""): .glyphicon.glyphicon-envelope  Newsletter
 					li: a(href=""): .glyphicon.glyphicon-leaf  RSS
-					li: span |
+					li.hidden-sm: span |
 					li: form.form-inline(role="form")
 						.form-group
 							label.sr-only Email Address
 							input(type="email", placeholder="Enter Email").form-control 
 							button(type="submit").btn.btn-default Sign Up!
+
+			nav.row
+				.col-sm-12
+					ul.nav.nav-tabs(style="background: #eee; padding: 1.5em 0 0 .6em; border-radius: .3em .3em 0 0")
+						li.active: a(href="") Book
+						li: a(href="") Magazines
+						li: a(href="") Comics
+						li: a(href="") Audio Books
+						li: a(href="") Action Figures
+						li: a(href="") Cosumes
+			
+
+			.content.row.pt05
+
+				section.col-sm-5
+					include _includes/col-1
+					
+				section.col-sm-4
+					include _includes/col-2					
+
+				section.col-sm-3
+					include _includes/col-3
 
 
 

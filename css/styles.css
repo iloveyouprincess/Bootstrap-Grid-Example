@@ -1,0 +1,39 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 16px;
+}
+
+.small-dark-title {
+  background: black;
+  color: white;
+  padding: 0.38em 0.75em;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.pt05 {
+  padding-top: .5em;
+}
+
+.pt1 {
+  padding-top: 1em;
+}
+
+.pr0 {
+  padding-right: 0;
+}
