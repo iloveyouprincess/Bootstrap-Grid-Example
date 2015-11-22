@@ -35,17 +35,28 @@ html(lang="en")
 
 			.content.row.pt05
 
-				section.col-sm-5
+				section.col-sm-7.col-md-7.col-lg-5
 					include _includes/col-1
 					
-				section.col-sm-4.col-2
+				section.col-sm-5.col-2.col-md-5.col-lg-4
 					include _includes/col-2					
 
-				section.col-sm-3
+				section.col-sm-12.col-md-12.col-lg-3
 					include _includes/col-3
+			
 
+			hr(style="border-width: 10px")
 
-
+			footer.row.text-centered
+				
+					+footer-col
+					+footer-col
+					+footer-col
+					+footer-col
+					
+					
+				.col-sm-12.text-right.text-muted.copyright
+					p CopeyRight your Site 2016
 		script(src="js/jquery-2.1.4.min.js")
 		script(src="js/bootstrap.min.js")
 		script(src="js/function.js")
